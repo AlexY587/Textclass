@@ -12,8 +12,10 @@ titleHeight = height*1/10;
 //Single Executed Code
 //Fonts form Os or Operating System
 String[] fontList = PFont.list(); // to list all fonts available on os
+printArray(fontList);
 rect(titleX, titleY, titleWidth, titleHeight);
-
+titlefont = createFont();//verifiy font existince
+//Tools / Create Font / Find Font in list to verify / Do not press "OK", known bug
 //
 //Repeatedly Executed Code
 text(title, titleX, titleY, titleWidth, titleHeight);
