@@ -1,4 +1,4 @@
-String title = "THIS IS TEXT";
+String title = "Wahoo!";
 float titleX, titleY, titleWidth, titleHeight;
 PFont titlefont;
 color blue=#0027FC, resetdefualtink=#FFFFFF;//Not nightMode friendly
